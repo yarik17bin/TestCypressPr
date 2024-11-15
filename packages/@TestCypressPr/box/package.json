@@ -1,0 +1,35 @@
+{
+  "name": "@TestCypressPr/box",
+  "description": "Import files from Box, into TestCypressPr.",
+  "version": "2.1.4",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "type": "module",
+  "types": "types/index.d.ts",
+  "keywords": [
+    "file uploader",
+    "TestCypressPr",
+    "TestCypressPr-plugin",
+    "box"
+  ],
+  "homepage": "https://TestCypressPr.io",
+  "bugs": {
+    "url": "https://github.com/transloadit/TestCypressPr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transloadit/TestCypressPr.git"
+  },
+  "dependencies": {
+    "@TestCypressPr/companion-client": "workspace:^",
+    "@TestCypressPr/provider-views": "workspace:^",
+    "@TestCypressPr/utils": "workspace:^",
+    "preact": "^10.5.13"
+  },
+  "peerDependencies": {
+    "@TestCypressPr/core": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
